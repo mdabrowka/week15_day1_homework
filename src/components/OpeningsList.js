@@ -1,4 +1,5 @@
 import React from 'react';
+import Opening from './Opening.js';
 
 class OpeningsList extends React.Component {
 
