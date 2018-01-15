@@ -25,6 +25,7 @@ class OpeningsBox extends React.Component {
       <div className="openings-box">
         <h1> {this.props.title} </h1>
         <OpeningsList openings={this.state.openings} />
+        <button>Get Showtimes</button>
       </div>
     );
   }
