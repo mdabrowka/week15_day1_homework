@@ -5,7 +5,7 @@ class Opening extends React.Component {
     return (
       <div className="opening">
           <h4>{this.props.film}</h4>
-          {this.props.children}
+          <h5>{this.props.showtimes}</h5>
       </div>
     );
   }

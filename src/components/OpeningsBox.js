@@ -23,7 +23,8 @@ class OpeningsBox extends React.Component {
   render() {
     return(
       <div className="openings-box">
-        <OpeninggsList openings={this.state.openings} />
+        <h1> {this.props.title} </h1>
+        <OpeningsList openings={this.state.openings} />
       </div>
     );
   }
